@@ -1,1 +1,0 @@
-web: meteor npm install && npm start
