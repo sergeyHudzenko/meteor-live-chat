@@ -1,0 +1,64 @@
+:root {
+  --background-color: #F0F2F5;
+  --background-bar-color: #D1D7DB;
+  --background-color-light: #FFFFFF;
+
+  --action-color: #5A80D9;
+
+  --font-size-title: 26px;
+  --font-weigth-title: 600;
+
+  --font-size-default: 16px;
+  --font-color-default: #54656F;
+
+  --font-color-placeholder: #919EA6;
+  --font-color-light: #FFFFFF;
+
+  --action-bar-background: #ba22f6;
+  --action-bar-height: 62px;
+
+  --messages-background-color: #F3EFE9;
+
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px;
+
+  --sent-message-background: #D9FDD3;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: #D8DBE3 url('/img/background.svg') fixed bottom no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  display: flex;
+  height: 100vh;
+  color: var(--font-color-default);
+  font-size: var(--font-size-default);
+  margin: 0;
+}
+
+input, button {
+  all: unset;
+}
+
+#react-target {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #DEDEDE; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A29F9F; 
+}
